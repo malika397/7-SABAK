@@ -1,0 +1,28 @@
+body{
+    background:black ;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 15px rgb(68, 39, 39);
+    animation:dev 3s infinite ;
+}
+@keyframes dev{
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0,5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.box2{
+    width: 200px;
+height:400px ;
+}
